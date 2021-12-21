@@ -8,8 +8,6 @@ import org.springframework.stereotype.Service;
 public class UserMap {
 
 	private static HashMap<String, String> map = new HashMap<String, String>();
-	private static HashMap<String, String> tokens = new HashMap<String, String>();
-
 	{
 		map.put("admin", "admin");
 		map.put("user1", "password1");
